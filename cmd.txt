@@ -1,0 +1,4 @@
+python src/align/align_dataset_mtcnn.py /data/lfw /data/lfw_mtcnnpy_160 --image_size 160 --margin 32 --random_order --gpu_memory_fraction 0.75
+
+
+python src/validate_on_lfw.py ./data/lfw_mtcnnpy_160/ ./facenet_20180402/
